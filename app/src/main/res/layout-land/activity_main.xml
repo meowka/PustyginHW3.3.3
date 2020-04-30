@@ -31,11 +31,58 @@
             android:textSize="20sp" />
     </LinearLayout>
 
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/exp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/exp"/>
+
+    <Button
+        android:id="@+id/lg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/lg"/>
+
+    <Button
+        android:id="@+id/ln"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/ln"/>
+
+    <Button
+        android:id="@+id/opnBrackets"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/openBrackets"/>
+    <Button
+        android:id="@+id/clsBrackets"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/closeBrackets"/>
+</LinearLayout>
+
     <LinearLayout
         android:id="@+id/linearLayout0"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/square"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/square"/>
 
         <Button
             android:id="@+id/delete"
@@ -72,6 +119,13 @@
         android:layout_height="wrap_content">
 
         <Button
+            android:id="@+id/sin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/sin"/>
+
+        <Button
             android:id="@+id/number7"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -104,6 +158,13 @@
         android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/cos"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cos"/>
 
         <Button
             android:id="@+id/number4"
@@ -140,6 +201,13 @@
         android:layout_height="wrap_content">
 
         <Button
+            android:id="@+id/tan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/tan"/>
+
+        <Button
             android:id="@+id/number1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -172,6 +240,13 @@
         android:id="@+id/linearLayout4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/pi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/pi"/>
 
         <Button
             android:id="@+id/number0"
